@@ -1,0 +1,102 @@
+/* Estilos para la página completa */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Fondois.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #cccccc;
+}
+
+/* Estilo para la imagen de cabecera */
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    height: auto;
+    margin: 20px; /* Añade margen para separarla del borde de la página */
+}
+
+/* Estilos para el contenedor del inicio de sesión */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(216, 215, 215);
+    position: absolute;
+    top: 60%; /* Modifica este valor para ajustar el desplazamiento hacia abajo */
+    left: 10%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Estilo para los espacios de texto */
+.text-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #888888; /* Fondo verde */
+}
+
+/* Estilos para los botones */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de inicio de sesión */
+.login-button {
+    background-color: #1100ac; /* Fondo rojo */
+}
+
+/* Estilo para el botón adicional */
+.secondary-button {
+    background-color: #999999; /* Fondo amarillo */
+}
+
+/* Cambia el color del botón al pasar el ratón sobre él */
+button:hover {
+    background-color: #7a7a7a;
+}
+
+/* Estilos para la sección de redes sociales */
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media h3 {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.social-media a:hover {
+    color: #007bff;
+}

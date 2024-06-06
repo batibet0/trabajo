@@ -1,0 +1,22 @@
+/* Estilos para la página completa */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondogui.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #cccccc;
+}
+
+/* Estilo para la imagen de cabecera */
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    height: auto;
+    margin: 20px; /* Añade margen para separarla del borde de la página */
+}
